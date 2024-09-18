@@ -1,0 +1,32 @@
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .edit, .delete {
+            text-decoration: none;
+            padding: 5px 10px;
+            margin: 5px;
+            color: #fff;
+            border-radius: 3px;
+        }
+
+        .edit {
+            background-color: #4CAF50; /* Green */
+        }
+
+        .delete {
+            background-color: #f44336; /* Red */
+        }
